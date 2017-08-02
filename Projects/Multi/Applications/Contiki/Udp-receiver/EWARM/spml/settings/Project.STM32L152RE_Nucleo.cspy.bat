@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\common\bin\cspybat" -f "C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\settings\Project.STM32L152RE_Nucleo.general.xcl" --backend -f "C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\settings\Project.STM32L152RE_Nucleo.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\common\bin\cspybat" -f "C:\Users\Sabooh\Documents\GitHub\sprt_wrking\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\spml\settings\Project.STM32L152RE_Nucleo.general.xcl" --backend -f "C:\Users\Sabooh\Documents\GitHub\sprt_wrking\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\spml\settings\Project.STM32L152RE_Nucleo.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\common\bin\cspybat" -f "C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\settings\Project.STM32L152RE_Nucleo.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\settings\Project.STM32L152RE_Nucleo.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\common\bin\cspybat" -f "C:\Users\Sabooh\Documents\GitHub\sprt_wrking\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\spml\settings\Project.STM32L152RE_Nucleo.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Sabooh\Documents\GitHub\sprt_wrking\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\spml\settings\Project.STM32L152RE_Nucleo.driver.xcl" 
 
 @echo off 
 :end
